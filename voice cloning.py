@@ -21,7 +21,7 @@ load_dotenv()
 # Get API key from environment or manually set it
 api_key = os.getenv("ELEVENLABS_API_KEY")
 if not api_key:
-    api_key = "sk_dba4d216c9c11b32c29c8168680f70a5d743c57e7224a3ab"  # Replace with your actual API key
+    api_key = "Add your API key"  # Replace with your actual API key
 
 # Initialize ElevenLabs client
 client = ElevenLabs(api_key=api_key)
@@ -58,7 +58,7 @@ load_dotenv()
 # Get API key from environment or manually set it
 api_key = os.getenv("ELEVENLABS_API_KEY")
 if not api_key:
-    api_key = "sk_dba4d216c9c11b32c29c8168680f70a5d743c57e7224a3ab"  # Replace with your actual API key
+    api_key = "Add your API key"  # Replace with your actual API key
 
 # Initialize ElevenLabs client
 client = ElevenLabs(api_key=api_key)
